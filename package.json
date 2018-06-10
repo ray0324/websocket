@@ -1,0 +1,14 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "nodejs websocket protocol encode and decode",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "websocket"
+  ],
+  "author": "ray0324",
+  "license": "ISC"
+}
