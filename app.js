@@ -14,8 +14,9 @@ server.on('connection',socket => {
 
   
   ws.once('message', function (msg) {
-    res.end(msg);
+    socket.write(msg);
   });
+
   ws.setSocket(socket);
   // httpServer.on('connection', function (req, res) {
   //   ws.once('message',function(msg){
